@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">KotlinStarted</string>
+    <string name="txt_first_activity_label">First Activity</string>
+    <string name="txt_open_label">Open</string>
 </resources>
