@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
  * @author Lucas Moreira <lucasm.java@gmail.com>
  * @since 25/05/2017.
  */
-open class ApiService {
+class ApiService {
     val gson = GsonBuilder().create()!!
 
     val retrofit: Retrofit = Retrofit.Builder()
