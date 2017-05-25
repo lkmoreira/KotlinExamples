@@ -10,7 +10,7 @@ import com.google.gson.annotations.SerializedName
  * @author Lucas Moreira <lucasm.java@gmail.com>
  * @since 24/05/2017.
  */
-open class Character {
+open class Person {
 
     @SerializedName("name")
     @Expose

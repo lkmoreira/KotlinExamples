@@ -1,5 +1,6 @@
-package com.lkmoreira.kotlin.retrofit.api
+package com.lkmoreira.kotlin.retrofit.rest.api
 
+import com.lkmoreira.kotlin.retrofit.model.Person
 import io.reactivex.Observable
 import retrofit2.http.GET
 
@@ -8,8 +9,8 @@ import retrofit2.http.GET
  * @author Lucas Moreira <lucasm.java@gmail.com>
  * @since 24/05/2017.
  */
-interface ApiService {
+interface Api {
     @GET("people/4/")
-    fun getDarthVader() : Observable<Character>
+    fun getDarthVader() : Observable<Person>
 
 }
