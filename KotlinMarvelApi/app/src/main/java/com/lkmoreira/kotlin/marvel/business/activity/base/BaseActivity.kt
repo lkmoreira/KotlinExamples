@@ -15,8 +15,7 @@ import org.androidannotations.annotations.EActivity
  * @since 02/06/2017.
  */
 @EActivity
-abstract class BaseActivity <in V : BaseView, T : BasePresenter<V>>
-    : AppCompatActivity(), BaseView {
+abstract class BaseActivity <in V : BaseView, T : BasePresenter<V>> : AppCompatActivity(), BaseView {
 
     //@NonConfigurationInstance
     protected var isFirstRunAfterViews: Boolean? = true
